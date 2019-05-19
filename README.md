@@ -3,9 +3,15 @@
 # 1. 项目简介
 一个极简的tomcat。使用java实现最基本的tomcat的功能，能够接收Http请求、处理Http请求（提供Servlet接口）、响应Http请求。
 
+项目结构：
+
+![项目结构](https://upload-images.jianshu.io/upload_images/5336514-85401dbfefcd31a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 项目演示：
 
 ![项目运行](https://upload-images.jianshu.io/upload_images/5336514-3b98a9965b0d0969.gif?imageMogr2/auto-orient/strip)
+
 
 # 2. 涉及的技术
 - I/O
