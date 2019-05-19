@@ -1,0 +1,8 @@
+2019-05-19 17:07:53.678 [main] INFO  cn.lastwhisper.server.core.Server - MyTomcat server 8888 startup
+2019-05-19 17:08:01.359 [Thread-0] INFO  cn.lastwhisper.server.core.Dispatcher - reuqest url /login spend time 10ms
+2019-05-19 17:08:16.934 [main] INFO  cn.lastwhisper.server.core.Server - MyTomcat server 8888 startup
+2019-05-19 17:08:18.910 [Thread-0] INFO  cn.lastwhisper.server.core.Dispatcher - reuqest url / spend time 5ms
+2019-05-19 17:08:18.912 [Thread-1] INFO  cn.lastwhisper.server.core.Dispatcher - reuqest url / spend time 4ms
+2019-05-19 17:08:27.259 [main] INFO  cn.lastwhisper.server.core.Server - MyTomcat server 8888 startup
+2019-05-19 17:08:29.468 [Thread-0] INFO  cn.lastwhisper.server.core.Dispatcher - reuqest url / spend time 7ms
+2019-05-19 17:08:34.453 [Thread-1] INFO  cn.lastwhisper.server.core.Dispatcher - reuqest url /login.html spend time 0ms
