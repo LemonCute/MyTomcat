@@ -68,4 +68,19 @@ public class IOUtil {
             }
         }
     }
+    /**
+     * @author lastwhisper
+     * @desc  释放inputStream资源
+     * @param inputStream
+     * @return void
+     */
+    public static void closeInputStream(InputStream inputStream) {
+        if (inputStream != null) {
+            try {
+                inputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 }

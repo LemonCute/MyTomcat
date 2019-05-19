@@ -8,9 +8,13 @@ import java.util.Properties;
  * @desc
  */
 public class HttpServerConfig {
-    private static int port;
+    private static Integer port;
     private static String index;
     private static String error;
+    private static Integer corePoolSize;
+    private static Integer maximumPoolSize;
+    private static Long keepAliveTime;
+    private static Integer queueSize;
 
     static {
         Properties pros = new Properties();
@@ -22,6 +26,10 @@ public class HttpServerConfig {
         port = Integer.valueOf(pros.getProperty("port"));
         index = pros.getProperty("index");
         error = pros.getProperty("error");
+        corePoolSize = Integer.valueOf(pros.getProperty("corePoolSize"));
+        maximumPoolSize = Integer.valueOf(pros.getProperty("maximumPoolSize"));
+        keepAliveTime = Long.valueOf(pros.getProperty("keepAliveTime"));
+        queueSize = Integer.valueOf(pros.getProperty("queueSize"));
     }
 
     public static int getPort() {
@@ -34,5 +42,21 @@ public class HttpServerConfig {
 
     public static String getError() {
         return error;
+    }
+
+    public static Integer getCorePoolSize() {
+        return corePoolSize;
+    }
+
+    public static Integer getMaximumPoolSize() {
+        return maximumPoolSize;
+    }
+
+    public static Long getKeepAliveTime() {
+        return keepAliveTime;
+    }
+
+    public static Integer getQueueSize() {
+        return queueSize;
     }
 }
